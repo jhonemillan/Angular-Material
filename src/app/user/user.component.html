@@ -1,0 +1,26 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title">New User</h4>
+  </div>
+  <div class="modal-body">
+    <div style="width: 100%">
+      <mat-form-field>
+        <input [(ngModel)] = "firstname" matInput placeholder="First Name" required value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+        <input [(ngModel)] = "lastname" matInput placeholder="Last Name" required value="">
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+        <input [(ngModel)] = "email" matInput placeholder="Email" required value="">
+      </mat-form-field>
+      
+    </div>
+    
+  </div>
+  <div class="modal-footer">
+    <button (click)="save()" type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+  </div>
+</div>
