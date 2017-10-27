@@ -6,11 +6,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { UserComponent } from './user/user.component';
 import { FormsModule } from '@angular/forms';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,
